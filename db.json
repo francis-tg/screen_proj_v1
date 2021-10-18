@@ -1,0 +1,159 @@
+{
+    "mainScreen": [{
+            "id": 1,
+            "title": "tester",
+            "url": "urlTEst.png",
+            "duration": 0,
+            "show": false,
+            "startDate": "",
+            "endDate": ""
+        },
+        {
+            "title": "hello world",
+            "url": "@AnimesZone Bleach film 2 vf.mp4",
+            "duration": 0,
+            "show": false,
+            "startDate": "20210921",
+            "endDate": "20210925",
+            "id": 2
+        },
+        {
+            "title": "hello world",
+            "url": "@AnimesZone Bleach film 2 vf.mp4",
+            "duration": 0,
+            "show": false,
+            "startDate": "20210921",
+            "endDate": "20210925",
+            "id": 3
+        },
+        {
+            "title": "holo",
+            "url": "-6309950838302419824_121.jpg",
+            "duration": 2000,
+            "show": false,
+            "startDate": "20210922",
+            "endDate": "20210924",
+            "id": 4
+        },
+        {
+            "title": "Ma première fois",
+            "url": "abstract-5533510_960_720.png",
+            "duration": 1000,
+            "show": false,
+            "startDate": "20210921",
+            "endDate": "20210929",
+            "id": 5
+        },
+        {
+            "title": "Ma Deuxieme fois",
+            "url": "windows--amp-windows---wallpaper.jpg",
+            "duration": 1000,
+            "show": true,
+            "startDate": "20210917",
+            "endDate": "20210930",
+            "id": 6
+        },
+        {
+            "title": "Info Afrique2",
+            "url": "windows--amp-windows---wallpaper.jpg",
+            "duration": 3000,
+            "show": true,
+            "startDate": "20210918",
+            "endDate": "20210930",
+            "id": 7
+        },
+        {
+            "title": "Afrique Info Putsch",
+            "url": "acer-predator-logo-on-brushed-metal-wallpaper.jpg",
+            "duration": 4000,
+            "show": true,
+            "startDate": "20210918",
+            "endDate": "20210930",
+            "id": 8
+        },
+        {
+            "title": "Ma Deuxieme fois",
+            "url": "d-cube-tenue-light-aesthetic-wallpaper.jpg",
+            "duration": 1000,
+            "show": true,
+            "startDate": "20210918",
+            "endDate": "20210930",
+            "id": 9
+        },
+        {
+            "title": "test",
+            "url": "loading_bar.mp4",
+            "duration": 28000,
+            "show": true,
+            "startDate": "20211015",
+            "endDate": "20211015",
+            "id": 10
+        },
+        {
+            "title": "Test3",
+            "url": "JavaScript Crash Course For Beginners.mp4",
+            "duration": 6029867,
+            "show": true,
+            "startDate": "20211018",
+            "endDate": "20211018",
+            "id": 11
+        }
+    ],
+    "bottomScreen": [{
+            "title": "Togo : l\"urgence sanitaire\" prolongée désespère les Togolais",
+            "content": "Au Togo, les mesures sanitaires pour lutter contre la propagation du Covid-19 ont été renforcées. Le Parlement a de son côté prolongé la situation d\"urgence sanitaire\" pour 12 mois. Fermeture de certains bars, des lieux de culte et interdiction de rassemblements : l'augmentation des cas de coronavirus au mois d'août dans le pays inquiète et désespère les habitants. ",
+            "show": true,
+            "startDate": "20210917",
+            "endDate": "20210930",
+            "id": 1
+        },
+        {
+            "title": " Guinée : \"Ce premier jour de concertation était une prise de contact\"",
+            "content": "Les analystes mettent en garde contre les parallèles entre les situations politiques malienne et guinéenne. La Cédéao s'était employée à faire en sorte que la transition au Mali soit la plus courte possible après le putsch de 2020 et avait transigé sur une durée de 18 mois. La tenue d'élections en février 2022, comme prévu, y est de plus en plus douteuse et la pression monte pour une prolongation.",
+            "show": true,
+            "startDate": "20210918",
+            "endDate": "20210930",
+            "id": 2
+        },
+        {
+            "title": "Covid-19 : trois adolescents de 14 à 15 ans révèlent être à l'origine du CovidTracker australien",
+            "content": "Jusqu'à jeudi, personne ne connaissait l'identité des individus derrière ce site internet qui suit l'évolution de l'épidémie et de la vaccination dans le pays. Lancé en avril, il est rapidement devenu une référence.\r\nCertes l'histoire de Guillaume Ro",
+            "show": true,
+            "startDate": "20210925",
+            "endDate": "20210925",
+            "id": 3
+        },
+        {
+            "title": "Internet : Connexion interrompue pour des millions de smartphones et de consoles le 30 septembre ?",
+            "content": "Une mise à jour nécessaire\r\nCe black-out serait dû à un important certificat numérique de sécurité, baptisé IdentTrust DST Root CA X3, qui expirera ce jour-là. Problème : il permet de valider un autre certificat ISRG Root X1) permettant de chiffrer un",
+            "show": true,
+            "startDate": "20210925",
+            "endDate": "20210925",
+            "id": 4
+        },
+        {
+            "title": "Elections fédérales en Allemagne : Angela Merkel appelle à voter Armin Laschet pour que \"l'Allemagne reste stable\"",
+            "content": "La chancelière allemande était venue soutenir le candidat de la CDU-CSU lors d'un meeting de son parti vendredi à Munich, en Bavière, alors que les élections de dimanche augurent d'un duel serré entre le favori des sondages social-démocrate et son ri",
+            "show": true,
+            "startDate": "20210925",
+            "endDate": "20210925",
+            "id": 5
+        },
+        {
+            "title": "LIGUE 1, 8E JOURNÉE - NICE SE BALADE ET ENFONCE SAINT-ETIENNE DANS LA CRISE (0-3), GOUIRI ET DELORT BUTEURS",
+            "content": "LIGUE 1 - Nice s'est baladé. En déplacement à Geoffrey-Guichard face à une AS Saint-Etienne en crise, le club azuréen s'est largement imposé à l'extérieur en ouverture de la 8e journée (0-3), samedi après-midi. Amine Gouiri (15e), Calvin Stengs (54e)",
+            "show": true,
+            "startDate": "20210925",
+            "endDate": "20210925",
+            "id": 6
+        },
+        {
+            "title": "La semaine dernière, les téléspectateurs ont pu découvrir, avec un peu de déception pour beaucoup, la nouvelle version de Danse avec les stars sur TF1. Pour cette onzième saison, quelques petits changements ont en effet été opérés, avec un jury flambant neuf à l'exception de Chris Marques, une émission enregistrée, et l'arrivée du fameux \"buzz d’immunité\" permettant d'envoyer directement des candidats \"en semaine prochaine\"",
+            "content": "La semaine dernière, les téléspectateurs ont pu découvrir, avec un peu de déception pour beaucoup, la nouvelle version de Danse avec les stars sur TF1. Pour cette onzième saison, quelques petits changements ont en effet été opérés, avec un jury flamb",
+            "show": true,
+            "startDate": "20210925",
+            "endDate": "20210925",
+            "id": 7
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+<div class="container">
+  <div class="col-md-12">
+    <div class="card card-body">
+      <h3 class="text-center">Ajouter un fichier</h3>
+      <center>
+        <div class="alert " hidden role="alert">
+          
+        </div>
+      </center>
+      <form action="/text" method="post" id="form-text">
+        <div class="form-group">
+          <label for="title">Titre </label>
+          <input
+            type="text"
+            class="form-control"
+            name="title"
+            id="title"
+            value=""
+          />
+        </div>
+        <label for="content">Contenu</label>
+          <textarea
+            type="text"
+            class="form-control"
+            name="content"
+            id="content"
+            autocomplete="on"
+            minlength="25"
+            maxlength="250"
+            value=""></textarea>
+       
+        <div class="form-group">
+          <label for="startDate">Date de debut de diffusion</label>
+          <input
+            type="date"
+            class="form-control"
+            name="startDate"
+            id="startDate"
+            value=""
+          />
+        </div>
+        <div class="form-group">
+          <label for="endDate">Date de fin de diffusion</label>
+          <input
+            type="date"
+            class="form-control"
+            name="endDate"
+            id="endDate"
+            value=""
+          />
+        </div>
+
+        <button type="submit" class="btn btn-success w-100">Soumetre</button>
+      </form>
+    </div>
+     </div>
+  </div>
+</div>
+
+<script src="/js/editText.js"></script>
+
+<style>
+  .container{
+    background: #39383993;
+    padding: 3%;
+    margin-top: 5%;
+  }
+  .card{
+    margin: 0 15% 0 15%;
+  }
+  body{
+    background: url("/img/bg-main.jpg") fixed;
+    background-size: cover;
+  }
+  textarea{
+    min-height: 50px;
+    max-height: 200px;
+  }
+  textarea:invalid{
+    border: 1px #ff0000 solid;
+  }
+  textarea:valid{
+    border: 1px #00a800 solid;
+  }
+  @media screen and (max-width:780px){
+    .card{
+      margin: 0;
+    }
+  }
+</style>
+
+<script>
+  $('.form-control').attr('required',true)
+</script>

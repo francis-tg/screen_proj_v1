@@ -1,0 +1,78 @@
+<div class="container">
+
+    {{!--
+    <div class="col-md-3 offset-md-4 text-center" style="font-size: xx-large;">
+        <b>
+      Bienvenue</b>
+        <div class="card" style="margin-top: 50px;">
+
+        </div>
+        <div class="col-md-6" style="margin-top: 50px;float:right;">
+            <div class="card bg-primary">
+                <div class="card-body" style="background-color: rgb(24, 24, 211);">
+                    <div class="card-header text-center">
+                        <span style="float: right"><a
+            href="/uploadForm"
+            class="btn btn-info"
+          >Ajouter un fichier</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6" style="margin-top: 50px;float:left;">
+            <div class="card bg-primary">
+                <div class="card-body" style="background-color: rgb(165, 37, 37);">
+                    <div class="card-header text-center">
+                        <span style="float: right"><a
+            href="/textForm"
+            class="btn btn-info"
+          >Ajouter un Texte</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> --}}
+    <center>
+        <div class="box">
+          <h1 class="text-light mb-3">
+            Bienvenue
+          </h1>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <button type="button" class="btn btn-primary btn-lg w-100" data-url="/uploadForm" id="file" onclick="Goto('file')">
+                  <i class="fas fa-file-upload"></i>
+              Ajouter un fichier
+            </button>
+                </div>
+                <div class="col-md-6">
+
+                    <button type="button" class="btn btn-secondary btn-lg w-100" data-url="/textForm" id="text" onclick="Goto('text')">
+                  <i class="fas fa-file-signature"></i>
+              Ajouter un texte
+            </button>
+                </div>
+            </div>
+        </div>
+    </center>
+
+</div>
+
+<script>
+   function Goto (id) {
+     window.location.href = $('#'+id).data('url')
+   }
+</script>
+
+<style>
+  body{
+    background: url('/img/bg-main.jpg') fixed;
+    background-size: cover;
+  }
+  .box{
+    background-color: #393939a2;
+    padding: 15%;
+    margin-top: 12%;
+  }
+  
+
+</style>

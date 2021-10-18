@@ -1,0 +1,5 @@
+node_modules
+uploads/pictures/*
+uploads/videos/*
+client/node_modules
+client/img/*

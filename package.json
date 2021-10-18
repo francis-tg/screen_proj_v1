@@ -1,0 +1,52 @@
+{
+  "name": "screenproject",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "scripts": {
+    "client": "cd client&&npm run serve",
+    "desktop": "cd desktopApp&&npm start",
+    "dev": "concurrently \"npm run json\" \"npm run server\"",
+    "json": "json-server --watch db.json --port 4040",
+    "prod": "concurrently \"npm run json\" \"npm run server\" \"npm run client\"",
+    "server": "nodemon server.js",
+    "start": "vue-cli-service serve --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@handlebars/allow-prototype-access": "^1.0.5",
+    "axios": "^0.21.4",
+    "concurrently": "^6.2.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3",
+    "ffprobe": "^1.1.2",
+    "ffprobe-static": "^3.0.0",
+    "formidable": "^1.2.2",
+    "get-video-duration": "^4.0.0",
+    "handlebars": "^4.7.7",
+    "json-server": "^0.16.3",
+    "lodash": "^4.17.21",
+    "mdb-vue-ui-kit": "^1.4.0",
+    "moment": "^2.29.1",
+    "multer": "^1.4.3",
+    "node-cron": "^3.0.0",
+    "nodemon": "^2.0.12",
+    "qs": "^6.10.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-vuex": "^4.5.13",
+    "vue-cli-plugin-mdb5": "~1.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/shine76/screenproj/issues"
+  },
+  "homepage": "https://github.com/shine76/screenproj#readme",
+  "keywords": [],
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shine76/screenproj.git"
+  }
+}

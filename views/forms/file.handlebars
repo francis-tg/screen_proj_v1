@@ -1,0 +1,131 @@
+<div class="container putfile">
+  <div class="row" >
+    <div class="col-md-6">
+    
+    <div class="card card-body">
+      <center>
+        <h3>Ajouter un fichier</h3>
+      <div hidden class="alert " role="alert">
+        
+      </div>
+    </center>
+      
+      <form action="/upload" id="fileForm" enctype="multipart/form-data" method="post">
+        <div class="form-group">
+          <label for="title">Ajouter un titre</label>
+          <input
+            type="text"
+            class="form-control"
+            name="title"
+            id="title"
+            value=""
+            placeholder="Indiquer le titre de l'affiche"
+          />
+        </div>
+        {{!-- <div class="form-group">
+          <label for="title">Choisir un fichier</label>
+          <input
+            type="file"
+            class="form-control"
+            name="file"
+            value=""
+          />
+        </div> --}}
+        <center>
+          <div class="form-group">
+          <label class="custom-file">
+            <input type="file"
+            name="file"
+            id="file"
+            class="custom-file-input"
+            accept="jpg ,.png, .mp4, .avi", {{!-- next update .mp4 --}}
+            capture="environment"
+            aria-describedby="fileHelpId">
+            <span class="custom-file-control ">
+              <i class="fas fa-file-upload  fa-3x "></i>
+            </span>
+          </label>
+          <small id="fileHelpId"
+          class="form-text text-muted">
+            Choisir un fichier Vidéo / Image
+          </small>
+        </div>
+        </center>
+        <div class="form-group">
+          <label for="startDate">Date de debut de diffusion</label>
+          <input
+            type="date"
+            class="form-control"
+            name="startDate"
+            id="startDate"
+            min=""
+            value=""
+          />
+        </div>
+        <div class="form-group">
+          <label for="endDate">Date de fin de diffusion</label>
+          <input
+            type="date"
+            id="endDate"
+            class="form-control"
+            name="endDate"
+            min=""
+            value=""
+          />
+        </div>
+        <div class="form-group">
+          <label for="show">Difuser maintenant?</label>
+          <input
+            type="checkbox"
+            id="show"
+            class="form-control"
+            name="show"
+          />
+        </div>
+
+        <button type="submit" class="btn btn-success w-100">
+          Envoyer</button>
+      </form>
+
+      
+    </div>
+  </div>
+
+  <div class="col-6">
+    <div class="card">
+      <div class="card-header">
+        <center>
+          <h4>
+            Prévisualisation
+          </h4>
+        </center>
+      </div>
+      <div class="card-body" id="show">
+
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+<style>
+  #show img, #show video{
+    width: 100%;
+  }
+  #show{
+    height: 449px;
+    width: 100%;
+    background: #393939;
+  }
+  body{
+    background: url("/img/bg-main.jpg") fixed;
+    background-size: cover;
+  }
+  .putfile{
+    background: #ffffff69;
+    margin-top: 5%;
+    padding: 3%;
+  }
+</style>
+
+<script src="/js/file.js"></script>
