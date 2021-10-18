@@ -78,7 +78,7 @@ router.post("/upload", upload.single('file'), async function(req, res) {
                     title: req.body.title,
                     url: filename,
                     duration: Math.round(duration * 1000),
-                    show: false,
+                    show: req.body.show,
                     startDate: startDate,
                     endDate: endDate
                 }
@@ -147,11 +147,12 @@ router.get("/getAllFileData", async function(req, res) {
         if (element.show === true) {
             virtualid++
             if (element.url.endsWith('mp4') || element.url.endsWith('mkv')) {
-                pushmulti = `<video src = 'http://localhost:3400/videos/${element.url}' muted autoplay loop></video>`
+                pushmulti = `<video src = 'http://${req.hostname}:3400/videos/${element.url}' muted autoplay loop></video>`
                 type = 'video';
             } else if (element.url.endsWith('jpg') || element.url.endsWith('png') || element.url.endsWith('jpeg')) {
-                pushmulti = `<img src = 'http://localhost:3400/pictures/${element.url}'></img>`
+                pushmulti = `<img src = 'http://${req.hostname}:3400/pictures/${element.url}'></img>`
                 type = 'image';
+
             }
 
             const FormatData = {

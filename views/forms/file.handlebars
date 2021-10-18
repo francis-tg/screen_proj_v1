@@ -73,14 +73,11 @@
             value=""
           />
         </div>
-        <div class="form-group">
-          <label for="show">Difuser maintenant?</label>
-          <input
-            type="checkbox"
-            id="show"
-            class="form-control"
-            name="show"
-          />
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" name="show" id="exampleInput">
+          <label class="form-check-label" for="exampleInput">
+            Diffuser maintenant?
+          </label>
         </div>
 
         <button type="submit" class="btn btn-success w-100">
@@ -111,6 +108,7 @@
 <style>
   #show img, #show video{
     width: 100%;
+    height: 600px;
   }
   #show{
     height: 449px;
